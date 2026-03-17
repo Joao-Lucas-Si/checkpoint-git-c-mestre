@@ -16,7 +16,7 @@ int main() {
     };
 int idades[5] = {
         18,
-        joaoPedroNome,
+        18,
         EnzoribeiroNome,
         joaoLucasNome,
         AlanNome
