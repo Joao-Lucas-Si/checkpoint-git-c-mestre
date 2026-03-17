@@ -23,6 +23,6 @@ int idades[5] = {
     };
 
     for (int i=0; i< 5; i++) {
-        printf("nome: %s,idade:", nomes[i]);
+        printf("nome: %s,idade: %d", nomes[i],idades[i]);
     }
 }
