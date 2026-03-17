@@ -14,5 +14,11 @@ int main() {
         joaoLucasNome,
         AlanNome
     };
-
+int idades[5] = {
+        18,
+        joaoPedroNome,
+        EnzoribeiroNome,
+        joaoLucasNome,
+        AlanNome
+    };
 }
