@@ -7,7 +7,7 @@ int main() {
     char joaoLucasNome = "João Lucas Silva Lopes";
     char AlanNome = "Alan Otalvaro Ramirez";
 
-    char nomes[5] = {
+    char nomes[5][100] = {
         joaoRibeiroNome,
         joaoPedroNome,
         EnzoribeiroNome,
@@ -23,6 +23,6 @@ int idades[5] = {
     };
 
     for (int i=0; i< 5; i++) {
-        printf("nome: ,idade:");
+        printf("nome: %s,idade:", nomes[i]);
     }
 }
