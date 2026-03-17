@@ -27,4 +27,6 @@ int main()
     {
         printf("nome: %s, idade: %d\n", nomes[i], idades[i]);
     }
+
+    return 0;
 }
