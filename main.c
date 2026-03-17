@@ -19,7 +19,7 @@ int idades[5] = {
         18,
         19,
         20,
-        AlanNome
+        21
     };
 
     for (int i=0; i< 5; i++) {
