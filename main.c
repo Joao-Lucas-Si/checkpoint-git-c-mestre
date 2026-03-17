@@ -1,20 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
-    char joaoRibeiroNome="joao pedro ribeiro santos";  
-    char joaoPedroNome="Joao Pedro Evangelista de Almeida";
-    char EnzoribeiroNome="Enzo Ribeiro";
-    char joaoLucasNome = "João Lucas Silva Lopes";
-    char AlanNome = "Alan Otalvaro Ramirez";
+int main()
+{
+    char* joaoRibeiroNome = "joao pedro ribeiro santos";
+    char* joaoPedroNome = "Joao Pedro Evangelista de Almeida";
+    char* EnzoribeiroNome = "Enzo Ribeiro";
+    char* joaoLucasNome = "João Lucas Silva Lopes";
+    char* AlanNome = "Alan Otalvaro Ramirez";
 
-    char nomes[5][100] = {
+    char *nomes[5] = {
         joaoRibeiroNome,
         joaoPedroNome,
         EnzoribeiroNome,
         joaoLucasNome,
         AlanNome
     };
-int idades[5] = {
+    int idades[5] = {
         18,
         18,
         19,
@@ -22,7 +23,8 @@ int idades[5] = {
         21
     };
 
-    for (int i=0; i< 5; i++) {
-        printf("nome: %s,idade: %d", nomes[i],idades[i]);
+    for (int i = 0; i < 5; i++)
+    {
+        printf("nome: %s, idade: %d\n", nomes[i], idades[i]);
     }
 }
