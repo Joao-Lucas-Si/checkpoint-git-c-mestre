@@ -5,12 +5,14 @@ int main() {
     char joaoPedroNome="Joao Pedro Evangelista de Almeida";
     char EnzoribeiroNome="Enzo Ribeiro";
     char joaoLucasNome = "João Lucas Silva Lopes";
+    char AlanNome = "Alan Otalvaro Ramirez";
 
     char nomes[5] = {
         joaoRibeiroNome,
         joaoPedroNome,
         EnzoribeiroNome,
-        joaoLucasNome
+        joaoLucasNome,
+        AlanNome
     };
 
 }
